@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{box-sizing:
+     border-box;
+     margin: 0;
+    }
+.headerCompClass{
+    width:auto;
+    height:60px;
+    background: #FF8282;
+}
+.content{
+    display: grid;
+    padding: 3%;
+    gap:26px;
+
+}
+.titlecompClass{
+    width: 271px;
+    height: 61px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+
+    
+    
+    color: #000000;
+    
+
+}
+.sectionInput{
+    display: grid;
+    gap: 5px;
+    
+}
+
+.label__del__input{
+
+max-width: 271px;
+height: 28px;
+left: 31px;
+top: 163px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.inputComp{
+    height: 55px;
+    max-width: 312px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+.buttonComp{
+    height: 55px;
+    width: 312px;
+    border-radius: 4px;
+    background: #9CBBE9;
+  
+}

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
+    "@vaadin/router": "^1.7.5",
     "parcel": "^2.8.3"
   },
   "scripts": {

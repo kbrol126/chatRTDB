@@ -17,7 +17,39 @@ export function sectionComp() {
       //creo el input
       let inputEl = document.createElement("input");
       inputEl.setAttribute("class", "inputComp");
+      inputEl.setAttribute("name", "nombre");
 
+      let style = document.createElement("style");
+      style.innerText = `
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+      .sectionInput{
+        display: grid;
+        gap: 5px;
+        
+    }
+    
+    .label__del__input{
+    
+    max-width: 271px;
+    height: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    } 
+    .inputComp{
+        height: 55px;
+        max-width: 312px;
+        border: 2px solid #000000;
+        border-radius: 4px;
+    }
+    
+      `;
+      sectionEl.appendChild(style);
       sectionEl.appendChild(labelEl);
       sectionEl.appendChild(inputEl);
       this.appendChild(sectionEl);
